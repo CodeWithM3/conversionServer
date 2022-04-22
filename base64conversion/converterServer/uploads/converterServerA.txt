@@ -1,0 +1,28 @@
+REQUIREMENT FOR NEXT TASK FROM BOSS HAMID
+
+1. User to Sign_up and Sign_in with email and password
+2. User should be able to upload a .txt file which will contain english word.
+3. After upload and extracting content of the .txt, send the english content to worker A through a queue.(learn how to upload file in node.js) mutler
+4. After recieving content in worker A convert the content into a base 64 string. 
+5. After conversion, call an Api on server A to store this base 64 string against the user id in a collection called converted text.
+6. Make an API on server A, which only authenticated user can access with jwt and this API will return all the converted text for that user (protected route) 
+without having to passing user id from the API.(get user id from jwt_token)
+7. Because API in number 6 can return huge amount of data in the long run, add pagination to this API to solve this problem.
+
+ - Base 64 string
+ - how to add pagination
+ - lear
+ - how to use postman to upload file node.js mutler postman
+
+converter serverA
+
+use fs, path  library to read the content of the uploaded .txt, then console.log the result
+Duration:  
+
+
+
+
+
+
+
+
